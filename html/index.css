@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #7d1da3;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+nav  {
+    float: left;
+    width: 12%;
+    height: 935px;
+    
+    padding: 20px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+nav a:hover {
+    color: #ffffff;
+    background-color: #7d1da3;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+li {
+    padding: 5px;
+    border-bottom: 1px solid #77777785;
+}
+
+.btn-back {
+    padding: 15px 0;
+}
+
+.img-sobre {
+    width: 200px;
+    height: auto;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 88%;
+    background-color: #f1f1f1;
+    height: auto;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form {
+    
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #7d1da3;
+    
+}
+
+[type="text"], [type="email"], textarea, label {
+    display: block;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #7d1da3;
+}
+
+.name_email {
+    height: 40px;
+}
+/*
+.form-nome {
+    padding: 10px;
+}
+
+.form-email {
+    padding: 10px;
+}
+
+.form-men {
+    padding: 10px;
+}
+
+.form-radio {
+    padding: 10px;
+}
+
+.form-checkbox {
+    padding: 10px;
+}
+
+.form-cor {
+    padding: 10px;
+}
+*/
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
