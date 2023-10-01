@@ -62,6 +62,19 @@ p {
     line-height: 1.4;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#tenho-interesse {
+    background-color: #c0c0c0;
+}
+
+.cog-form__content {
+    background-color: #c0c0c0 !important;
+}
+
 ol {
    margin-left: 25px;
    line-height: 1.4; 
@@ -107,8 +120,9 @@ section article {
     width: 70%;
 }
 
-.cog-branding {
-    visibility: hidden !important;
+.cognito-forms {
+    height: 380px !important;
+    overflow: hidden !important;
 }
 
 footer {
@@ -126,5 +140,12 @@ footer p {
 footer small {
     font-size: 80%;
     display: block;
+}
+
+@media(max-width: 425px) {
+    section nav,
+    section article {
+        width: 100%;
+    }
 
 }
