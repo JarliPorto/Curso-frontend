@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="config.css">
+    <link href="./bootstrap-5.3.2-dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>VendAll</h1>
+                </div>
+                    
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./index.html#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./index.html#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./index.html#contatos">Contato</a></li>
+                    </ul>
+                </div>    
+            </div>
+        </div>
+    </header>
+
+    <section id="cadastro">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Cadastro</h2>
+                    <p>Faça nosso cadastro para receber nossos produtos em sua casa.</p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <form action="" class="form">
+                        
+                        <div class="form-row">
+                            <div class="col">
+                                <div class="input-group">
+                                    <input class="form-control" type="text" nome="nome" placeholder="Digite seu nome">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="input-group">
+                                    <input class="form-control" type="text" nome="email" placeholder="Digite seu email">
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+                        
+
+                        <div class="input-group">
+                            <textarea class="form-control" cols="30" rows="10" placeholder="Diga-nos quais produtos gostaria de ter cotações por email."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-lg btn-success">Solicitar cotação</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto 01</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" arial-label="Close">'</button>
+                </div>
+                <div class="modal-body">
+                    <h6>Tamanhos e preços</h6>
+                    <table class="table table-hover table-striped">
+                       <thead>
+                           <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                           </tr>
+                       </thead>
+                       
+                       <tbody>
+                           <tr>
+                                <td>P</td>
+                                <td>R$ 100,00</td>
+                           </tr>
+                           <tr>
+                                <td>M</td>
+                                <td>R$ 200,00</td>
+                           </tr>
+                           <tr>
+                                <td>G</td>
+                                <td>R$ 300,00</td>
+                           </tr>
+                       </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+        
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    </script>  
+</body>
+</html>

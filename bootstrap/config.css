@@ -1,0 +1,26 @@
+/*.container {
+    margin: 0 100px !important;
+}*/
+.card {
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
+section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+input, textarea {
+    margin-bottom: 0.5rem !important;
+}
+
+.modal-fade {
+    width: 33%;
+}
+
+h1 {
+    color: rgb(55, 55, 235) !important;
+    font-size: 12rem !important;
+}
